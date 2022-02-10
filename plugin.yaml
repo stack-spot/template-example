@@ -1,9 +1,13 @@
-name: template-example
-description: Template for Kotlin applications
+name: template-example #nome do template
+description: Template for Kotlin applications #descrição do template
 types:
-  - app-template
-inputs:
-  - label: Project name
+  - app-template #app-template, env-template ou ambos
+inputs: #variáveis de entrada esperadas pelos template
+  - label: Project name #label do campo de input que será apresentada para o usuário
+    type: text #tipo do input
+    name: project_name #nome do input
+    default: project-name #valor default caso a pessoa não preencha o campo
+  - label: "Informe o groupId:"
     type: text
-    name: project_name
-    default: project-name
+    name: "group_id"
+    default: "com.orange"
