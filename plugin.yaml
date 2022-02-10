@@ -1,0 +1,9 @@
+name: template-example
+description: Template for Kotlin applications
+types:
+  - app-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
