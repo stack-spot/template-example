@@ -9,5 +9,9 @@ inputs: #variáveis de entrada esperadas pelos template
     default: project-name #valor default caso a pessoa não preencha o campo
   - label: "Informe o groupId:"
     type: text
-    name: "group_id"
+    name: group_id
     default: "com.orange"
+  - label: "Gostaria de usar Junit:"
+    type: bool
+    name: junit
+    default: True
